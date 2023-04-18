@@ -3577,7 +3577,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
+		height: 120vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -3657,7 +3657,7 @@ input, select, textarea {
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
-			margin-left: -8.5em;
+			margin-left: -8em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
@@ -3666,6 +3666,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+
 		}
 
 			#banner .more:after {
@@ -4022,3 +4023,25 @@ input, select, textarea {
 	.profile-pic{
 		margin-top: 30px;
 	}
+
+	#resume{
+
+		margin-top: 10px;
+
+	}
+#learn-more {
+	margin-top: 50px ;
+}
+#name {
+	/* margin-bottom: 200px; */
+
+}
+
+
+@media (max-height: 480px) {
+	/* CSS styles for viewport heights of 480px or less */
+
+	#banner{
+		height: 300vh;
+	}
+  }
