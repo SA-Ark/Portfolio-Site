@@ -3411,7 +3411,6 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
@@ -4032,10 +4031,7 @@ input, select, textarea {
 #learn-more {
 	margin-top: 50px ;
 }
-#name {
-	/* margin-bottom: 200px; */
 
-}
 
 
 @media (max-height: 480px) {
@@ -4045,3 +4041,13 @@ input, select, textarea {
 		height: 300vh;
 	}
   }
+
+  @media (max-width:500px ){
+	.profile-pic{
+		width: 80%;
+		height: auto;
+	}
+  }
+
+
+ 
